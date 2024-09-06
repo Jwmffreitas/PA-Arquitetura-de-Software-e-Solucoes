@@ -1,0 +1,176 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.12" pages="2">
+  <diagram name="Contexto Atual" id="2s-HGf_j5LFp_uyya3tS">
+    <mxGraphModel dx="1084" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1jEQ72CJ5xLaN9bbMrJa-2" target="1jEQ72CJ5xLaN9bbMrJa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-16" value="Lê e compra quadrinhos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1jEQ72CJ5xLaN9bbMrJa-9">
+          <mxGeometry x="-0.3746" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Cliente" c4Type="Person" c4Description="Quem consome os quadrinhos na plataforma" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="1jEQ72CJ5xLaN9bbMrJa-2">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="200" y="150" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;gradientColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="545" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1jEQ72CJ5xLaN9bbMrJa-4" target="1jEQ72CJ5xLaN9bbMrJa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-10" value="Avisa dos novos quadrinhos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1jEQ72CJ5xLaN9bbMrJa-6">
+          <mxGeometry x="-0.1243" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-4" value="Plataforma Principal&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Plataforma principal onde os quadrinhos são disponibilizados para os clientes&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="215" y="450" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-5" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;Serviço de notificação&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Responsável pelo envio de e-mail&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="559" y="448" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1jEQ72CJ5xLaN9bbMrJa-5" target="1jEQ72CJ5xLaN9bbMrJa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-14" value="Envia email para" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1jEQ72CJ5xLaN9bbMrJa-11">
+          <mxGeometry x="-0.4857" y="2" relative="1" as="geometry">
+            <mxPoint x="-33" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1jEQ72CJ5xLaN9bbMrJa-15" target="1jEQ72CJ5xLaN9bbMrJa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1jEQ72CJ5xLaN9bbMrJa-18" value="Adiciona novos quadrinhos na plataforma" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1jEQ72CJ5xLaN9bbMrJa-17">
+          <mxGeometry x="0.0109" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Equipe de Produção" c4Type="Person" c4Description="Quem produz os quadrinhos para a plataforma" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="1jEQ72CJ5xLaN9bbMrJa-15">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+            <mxGeometry x="200" y="641" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z4AcVM-DeNa_Flri3VYB" name="Container Atual">
+    <mxGraphModel dx="1549" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eFXk41Ei60uM687a1Lol-13" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;gradientColor=none;fillColor=none;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="269" y="387" width="516" height="434" as="geometry" />
+        </mxCell>
+        <mxCell id="vo9Ssqc-H6YaAbQ79Vhp-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;gradientColor=none;fillColor=#DBFEFF;strokeColor=#2396ed;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="309" y="430" width="436" height="357" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="vo9Ssqc-H6YaAbQ79Vhp-7" target="eFXk41Ei60uM687a1Lol-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="958.75" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pGZCg5-x8za9Zkh6mYkE-5" value="Leitura e escrita" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eFXk41Ei60uM687a1Lol-23">
+          <mxGeometry x="0.2433" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vo9Ssqc-H6YaAbQ79Vhp-7" value="&lt;div&gt;&lt;b&gt;Backend&lt;/b&gt;&lt;/div&gt;Plataforma Principal&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Plataforma principal onde os quadrinhos são disponibilizados para os clientes&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="544" y="563" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vo9Ssqc-H6YaAbQ79Vhp-8" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;Serviço de notificação&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;Responsável pelo envio de e-mail&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="544" y="446" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vo9Ssqc-H6YaAbQ79Vhp-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vo9Ssqc-H6YaAbQ79Vhp-8" target="vo9Ssqc-H6YaAbQ79Vhp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vo9Ssqc-H6YaAbQ79Vhp-10" value="Envia email para" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vo9Ssqc-H6YaAbQ79Vhp-9">
+          <mxGeometry x="-0.4857" y="2" relative="1" as="geometry">
+            <mxPoint x="-33" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pGZCg5-x8za9Zkh6mYkE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vo9Ssqc-H6YaAbQ79Vhp-13" target="vo9Ssqc-H6YaAbQ79Vhp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Equipe de Produção" c4Type="Person" c4Description="Quem produz os quadrinhos para a plataforma" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vo9Ssqc-H6YaAbQ79Vhp-13">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+            <mxGeometry x="316" y="872" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="z0RjCkVIeguqzJqi7bH1-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="1">
+          <mxGeometry x="730" y="339" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vo9Ssqc-H6YaAbQ79Vhp-14" target="vo9Ssqc-H6YaAbQ79Vhp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vo9Ssqc-H6YaAbQ79Vhp-14" target="vo9Ssqc-H6YaAbQ79Vhp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vo9Ssqc-H6YaAbQ79Vhp-14" value="NGINX&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Plataforma principal onde os quadrinhos são disponibilizados para os clientes&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="331" y="618" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vo9Ssqc-H6YaAbQ79Vhp-15" value="&lt;div&gt;&lt;b&gt;Frontend&lt;/b&gt;&lt;/div&gt;Plataforma Principal&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Plataforma principal onde os quadrinhos são disponibilizados para os clientes&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="544" y="675" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#e7157b;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="983" y="396.5" width="185" height="149.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vo9Ssqc-H6YaAbQ79Vhp-16" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mq;" vertex="1" parent="1">
+          <mxGeometry x="948" y="364" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eFXk41Ei60uM687a1Lol-10" target="vo9Ssqc-H6YaAbQ79Vhp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pGZCg5-x8za9Zkh6mYkE-2" value="Consome a mensagem para notificar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eFXk41Ei60uM687a1Lol-20">
+          <mxGeometry x="-0.085" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-10" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;fillColor=#fa6800;fontColor=#000000;strokeColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1024" y="433" width="60" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/R/rabbitmq-logo-25641A76DE-seeklogo.com.png;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="400.79" width="33.33" height="35.21" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://iconape.com/wp-content/files/fr/370801/svg/docker-icon-logo-icon-png-svg.png;" vertex="1" parent="1">
+          <mxGeometry x="294" y="411" width="65" height="46.96" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#c925d1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="995.75" y="671.5" width="172" height="149.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-18" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#007FFF;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1032" y="722" width="90.75" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://dwglogo.com/wp-content/uploads/2017/09/Postgresql_logo.png;" vertex="1" parent="1">
+          <mxGeometry x="1067.75" y="692.25" width="100.25" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-15" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" vertex="1" parent="1">
+          <mxGeometry x="960.75" y="639.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="vo9Ssqc-H6YaAbQ79Vhp-7" target="eFXk41Ei60uM687a1Lol-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pGZCg5-x8za9Zkh6mYkE-1" value="Publica o evento de notificação" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eFXk41Ei60uM687a1Lol-21">
+          <mxGeometry x="-0.0748" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFXk41Ei60uM687a1Lol-22" value="queue" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1024" y="477.5" width="80" height="26" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Cliente" c4Type="Person" c4Description="Quem consome os quadrinhos na plataforma" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vo9Ssqc-H6YaAbQ79Vhp-3">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="316" y="138" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="pGZCg5-x8za9Zkh6mYkE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vo9Ssqc-H6YaAbQ79Vhp-3" target="vo9Ssqc-H6YaAbQ79Vhp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
